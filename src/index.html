@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <!-- Header Navigation Bar-->
+
+    <div class=" flex justify-between p-6 mb-[98px] md:px-20 md:pt-[65px]">
+      <div class="w-[80px] md:w-[166px]">
+        <img src="/images/logo.svg" alt="logo">
+      </div>
+
+      <div class="flex items-center space-x-[24px] font-[Raleway] text-[#07043B] text-[12px] md:text-[16px] md:space-x-[57px] md:leading-[18px]">
+        <a class="hover:text-gray-500" href="#">Features</a>
+        <a class="hover:text-gray-500" href="#">Team</a>
+        <a class="hover:text-gray-500" href="#">Sign in</a>
+      </div>
+    </div>
+
+
+
+    <!-- Hero Mobile -->
+
+    <div class="flex flex-col md:hidden mb-[90px]">
+      <div class="px-[36px] mb-[40px]">
+        <img class="container mx-auto w-[344px]" src="/images/illustration-1.svg" alt="illustration-1">
+      </div>
+
+      <div>
+        <h1 class="px-[28px] items-center text-center font-[Open Sans] text-[#07043B] text-[24px] font-bold leading-[36px] mb-6">All your files in one secure location, accessible anywhere.</h1>
+        <p class="px-[36px] items-center text-[#07043B] text-[14px] text-center font-[Open Sans] leading-[21px] mb-[32px]">
+          Fylo stores your most important files in one secure location. Access them wherever 
+          you need, share and collaborate with friends, family, and co-workers.
+        </p>
+
+
+        <div class="flex justify-center items-center flex-col">
+          <input class="w-[304px] h-[40px] pl-[21px] py-[14px] border rounded border-[#07043B] mb-[16px] focus:outline-none" type="text" placeholder="Enter your email...">
+          <a onclick="validate()" class="flex justify-center bg-[#2F65F8] w-[304px] h-[40px] font-[Raleway] text-[14px] text-center items-center font-bold rounded text-white hover:bg-[#6C9BFF] ease-in-out duration-300" href="#">Get Started</a>
+        </div>
+          
+
+      </div>
+    </div>
+
+
+    <!-- Hero Descktop -->
+
+    <div class="hidden md:flex container justify-between md:mt-[86px] md:flex-row items-center">
+      <div class="mx-[80px]">
+        <h1 class="md:font-[Raleway] text-[#07043B] text-[40px] font-bold leading-[60px] w-[627px] mb-[15px]"> All your files in one secure location, accessible anywhere. </h1>
+        <p class="font-[Open Sans] text-[#07043B] text-[17px] leading-[24px] w-[585px] mb-[25px]">
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with 
+          friends, family, and co-workers.
+        </p>
+        <form id="form" action="">
+          <input required id="email" type="email" class="w-[320px] h-[45px] pl-[21px] py-[14px] border rounded border-[#07043B] focus:outline-none" type="text" placeholder="Enter your email...">
+          <span id="text"></span>
+          <a onclick="validate()" href="#" class="items-center py-[15px] px-[61px] bg-[#2F65F8] text-white rounded-lg ml-4 hover:bg-[#6C9BFF] ease-in-out duration-300">Get Started</a>
+        </form>
+      </div>
+
+      <div class="w-[640px] min-w-[400px]">
+        <img src="/images/illustration-1.svg" alt="illustration-1">
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Last content Section -->
+
+    <div class="md:flex-row-reverse flex flex-col md:mt-[167px] md:items-center md:justify-between md:mx-[80px] md:pt-[178px] mb-[81px] md:mb-[107px]">
+      <div class="mb-[87px] mx-auto flex justify-center">
+        <img class="items-center max-w-[542px] w-full md:ml-[90px]" src="/images/illustration-2.svg" alt="illustration-2">
+      </div>
+
+      <div>
+
+        
+        <div class="mb-[40px] md:justify-items-start">
+        <h1 class="text-[#07043B] md:text-[40px] md:leading-[46px] md:text-left font-[Raleway] font-bold leading-[26px] text-[16px] items-center text-center mb-[24px]">Stay productive, wherever you are</h1>
+        <p class="mb-[16px] md:text-[16px] md:w-[533px] md:text-left  text-[#615F7E] text-[14px] leading-[21px] font-[Open Sans] font-normal md:mx-0 mx-auto items-center text-center w-[320px]">
+          Never let location be an issue when accessing your files.
+          Fylo has you covered for all of your file storage needs.
+        </p>
+        
+          <p class="mb-[36px] md:w-[529px] md:text-left text-[#615F7E] text-[14px] leading-[21px] font-[Open Sans] font-normal md:mx-0 mx-auto items-center text-center w-[320px]">
+            Securely share files and folders with friends, family 
+            and colleagues for live collaboration. No email attachments required!
+          </p>
+          
+          <div class="items-center mx-auto md:mx-0 text-center flex justify-center md:justify-start mb-[47px] ">
+            <a href="#"><span class=" relative md:text-left md:text-[16px] flex items-center font-[Open Sans] text-[#3DA08F] hover:text-[#5ac3b1] text-[12px] leading-[14px]">See how Fylo works <img class="ml-[8px] items-center w-[18px] h-[18px] md:w-[14] md:h-[14]" src="/images/icon-arrow.svg" alt="icon-arrow"> </span></a> 
+            <span class="mt-[30px] w-[130px] md:w-[166px] h-[1px] md:text-left bg-[#3DA08F] absolute text-center items-center flex justify-center"></span>
+          </div>
+        </div>
+        
+        
+        <div class="mx-[48px] md:mx-0 bg-[#e2cece] items-center shadow-[0px 0px 8px 4px #3838380C] mb-[81px] rounded-lg p-5 max-w-[356px]">
+          <div class="h-[35px]">
+            <span class="font-[Nunito Sans] text-[#07043B] text-[35px] md:text-[45px] leading-[53px] h-[10px]">“</span>
+          </div>
+          <h1 class="font-[Open Sans] text-[10px] leading-[18px] text-[#07043B] md:text-[13px] md:leading-[23px] md:mb-[13px]"> 
+          Fylo has improved our team productivity by an order of magnitude. 
+          Since making the switch our team has become a well-oiled collaboration machine.
+        </h1>
+        <div class="mt-[11px] flex flex-row items-center"> 
+          <img class="w-[24px] h-[24px] md:w-[32px] md:h-[32px] rounded-full mr-[7px]" src="/images/avatar-testimonial.jpg" alt="">
+          <div class="flex flex-col justify-start">
+            <h2 class="font-[Open Sans] text-[#07043B] text-[11px] md:text-[13px] font-bold leading-[12px] items-center text-left md:mb-[3px]">Kyle Burton</h2>
+            <span class="font-[Open Sans] text-[#07043B] text-[9px] md:text-[11px] items-center text-center">Founder & CEO, Huddle</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+
+  <div class="min-w-[375px] h-[345px] bg-[#575988] flex flex-col md:flex-row md:justify-between md:mx-auto">
+    <div class="md:w-[523px] md:h-[137px] md:ml-[80px]">
+      <h1 class="font-[Raleway] text-[18px] md:text-[32px] leading-[24px] md:leading-[48px] font-bold text-[#FFFFFF] mt-[54px] md:mt-[100px] mb-[16px] text-center md:text-left">Get early access today</h1>
+      <p class="font-[Open Sans] text-[14px] md:text-[16px] leading-[21px] md:leading-[24px] text-[#FFFFFF] text-center mx-[47px] mb-[24px] md:mx-0 md:text-left">
+        It only takes a minute to sign up and our free starter tier is extremely
+        generous. If you have any questions, our support team would be happy to help you.
+      </p>
+    </div>
+      <div class="flex flex-col justify-center items-center md:mr-[120px] md:items-start md:max-w-[480px]">
+        <input class="w-[240px] h-[32px] md:w-[480px] md:h-[48px] pl-[8px] text-[10px] md:text-[14px] border rounded border-[#07043B] text-[#C0C0C0] leading-[11px] mb-[8px] focus:outline-none" required id="email" type="email" placeholder="email@example.com">
+        <a class="w-[240px] h-[32px] md:w-[200px] md:h-[48px] bg-[#2F65F8] rounded-md text-center flex justify-center items-center text-[#FFFFFF] font-[Raleway] text-[12px] md:text-[14px] font-bold hover:bg-[#6C9BFF] ease-in-out duration-300" href="#">Get Started For Free</a>
+      </div>
+  </div>
+    
+
+  <!-- Footer -->
+
+
+  <div class="bg-[#07043B] w-[w-full] h-full">
+    <div class="pl-[39px] md:pl-[80px] md:flex md:flex-row md:flex-wrap md:justify-around">
+
+      <div class="pt-[56px] mb-[32px] md:mt-[92px]">
+        <img src="/images/Group 4.png" alt="logo">
+
+        <div class="hidden md:flex flex-col mt-[36px]">
+          <div class="flex mb-[16px]">
+            <img class="w-[20px] h-[20px]" src="/images/icon-phone.svg" alt="Phone">  <span class="text-white ml-[16px] text-center items-center">Phone: +1-543-123-4567</span>
+          </div>
+          <div class="flex mb-[32px]">
+            <img class="w-[20px] h-[20px]" src="/images/icon-email.svg" alt="email"> <span class="text-white ml-[16px] text-center items-center">example@fylo.com</span>
+          </div>
+        </div>
+    </div>
+    
+    <div class="flex-col flex md:hidden">
+      <div class="flex mb-[16px]">
+        <img class="w-[18px] h-[18px]" src="/images/icon-phone.svg" alt="Phone">  <span class="text-white ml-[16px] text-center items-center">Phone: +1-543-123-4567</span>
+      </div>
+      <div class="flex mb-[32px]">
+        <img class="w-[18px] h-[18px]" src="/images/icon-email.svg" alt="email"> <span class="text-white ml-[16px] text-center items-center">example@fylo.com</span>
+      </div>
+    </div>
+
+
+    <div class="list-none text-white space-y-[16px] font-[Open Sans] mb-[32px] md:flex md:justify-center md:flex-col md:mt-[169px]">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Jobs</a></li>
+      <li><a href="#">Press</a></li>
+      <li><a href="#">Blog</a></li>
+    </div>
+
+
+    <div class="list-none text-white space-y-[16px] font-[Open Sans] mb-[32px] md:flex  md:flex-col md:mt-[169px]">
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+    </div>
+
+    <div class="items-center hidden justify-center text-center text-white pl-[0px] space-x-[10px] pb-[42px] md:flex md:items-center md:mt-[50px]">
+      <i class="fa-brands fa-facebook-f bg-transparent border px-[10px] py-[8px] rounded-full hover:bg-[#6C9BFF] cursor-pointer ease-in-out duration-300"></i>
+      <i class="fa-brands fa-twitter bg-transparent border px-[8px] py-[8px] rounded-full hover:bg-[#6C9BFF] cursor-pointer ease-in-out duration-300"></i>
+      <i class="fa-brands fa-instagram bg-transparent border px-[9px] py-[9px] rounded-full hover:bg-[#6C9BFF] cursor-pointer ease-in-out duration-300"></i>
+    </div>
+
+  </div>
+  <div class="items-center flex justify-center text-center text-white pl-[0px] space-x-[10px] pb-[42px] md:hidden">
+    <i class="fa-brands fa-facebook-f bg-transparent border px-[10px] py-[8px] rounded-full hover:bg-[#6C9BFF] cursor-pointer ease-in-out duration-300"></i>
+    <i class="fa-brands fa-twitter bg-transparent border px-[8px] py-[8px] rounded-full hover:bg-[#6C9BFF] cursor-pointer ease-in-out duration-300"></i>
+    <i class="fa-brands fa-instagram bg-transparent border px-[9px] py-[9px] rounded-full hover:bg-[#6C9BFF] cursor-pointer ease-in-out duration-300"></i>
+  </div>
+  </div>
+  
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
+  
