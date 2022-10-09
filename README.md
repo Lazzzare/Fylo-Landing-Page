@@ -1,6 +1,6 @@
 # Links
 - Solution URL: [GitHub Code](https://github.com/Lazzzare/Typemaster-Landing-Page)
-- Live Site URL: [Live Site](https://typemaster-lazzzare.netlify.app/](https://main--landingfylo22222.netlify.app/)
+- Live Site URL: [Live Site](https://typemaster-lazzzare.netlify.app/)
 
 
 # Built With
